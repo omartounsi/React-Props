@@ -3,14 +3,11 @@
 .main-container{
   background-color: #090909;
   height: 100%;
-  width: 100%;
 }
-
 
 .list{
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 
@@ -19,7 +16,7 @@
 .card{
   display: inline-block;
   justify-content: space-evenly;
-  margin: 20px;
+  margin: 10% 40px 13% 40px;
   border: 2px solid rgb(120, 120, 120);
   padding: 10px;
   border-radius: 15px;
@@ -31,7 +28,6 @@
   position: relative;
   height: 400px;
   width: 250px;
-
 }
 
 .background{
@@ -52,9 +48,7 @@
   align-items: center;
   width: 76%;
   height: 200px;
-
   margin-bottom: 0;
-
 }
 
 .rating{
@@ -71,13 +65,11 @@
 .pos{
   font-size: 25px;
   margin: 0;
-  
 }
 
 #player-img{
   width: 200px;
   height: 240px;
-
   left: 10%;
   top: 10%;
   opacity: 80%;
@@ -99,7 +91,6 @@
   color: white;
   padding-bottom: 0;
   z-index: 3;
-
 }
 
 .description{
@@ -114,7 +105,6 @@
   margin-bottom: 20px;
   width: 125px;
   height: 60px;
-
 }
 
 .one p{

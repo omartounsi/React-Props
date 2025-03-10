@@ -7,11 +7,11 @@ const App = () => {
   return (
     <>
       <div className="main-container">
-
         <div className="list">
           <PlayerList />
         </div>
       </div>
+      <footer></footer>
     </>
   );
 };

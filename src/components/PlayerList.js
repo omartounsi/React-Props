@@ -8,7 +8,6 @@ const PlayerList = () =>{
     <>
         {players.map((player, index) =>(
             <Player className="hello" key={index} {...player}  />
-
         )
         )}
 
